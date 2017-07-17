@@ -1,0 +1,6 @@
+.*/
+log
+*.log
+*.log.*
+bower_components
+node_modules
