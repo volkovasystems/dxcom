@@ -1,33 +1,33 @@
 {
-  "name": "dxcom",
-  "version": "0.0.0",
-  "description": "Execute command as daemon.",
-  "main": "dxcom.js",
-  "scripts": {
-    "test": "mocha dxcom-test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/volkovasystems/dxcom.git"
-  },
-  "keywords": [
-    "execute",
-    "command",
-    "daemon",
-    "dxcom"
-  ],
-  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/volkovasystems/dxcom/issues"
-  },
-  "homepage": "https://github.com/volkovasystems/dxcom#readme",
-  "dependencies": {
-    "depher": "^0.36.0",
-    "falzy": "^0.20.0",
-    "letgo": "^0.52.0",
-    "pedon": "^0.15.0",
-    "shft": "^0.4.0",
-    "zelf": "^0.12.0"
-  }
+	"name": "dxcom",
+	"version": "0.1.0",
+	"description": "Execute command as daemon.",
+	"main": "dxcom.js",
+	"scripts": {
+		"test": "mocha dxcom-test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/volkovasystems/dxcom.git"
+	},
+	"keywords": [
+		"execute",
+		"command",
+		"daemon",
+		"dxcom"
+	],
+	"author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/volkovasystems/dxcom/issues"
+	},
+	"homepage": "https://github.com/volkovasystems/dxcom#readme",
+	"dependencies": {
+		"depher": "^0.36.0",
+		"falzy": "^0.20.0",
+		"letgo": "^0.52.0",
+		"pedon": "^0.15.0",
+		"shft": "^0.4.0",
+		"zelf": "^0.12.0"
+	}
 }

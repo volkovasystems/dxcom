@@ -94,7 +94,7 @@ const dxcom = function dxcom( command, synchronous, option ){
 	option.stdio = "ignore";
 
 	if( !pedon.WINDOWS ){
-		command = `nohup "${ command }" &> /dev/null &`
+		command = `nohup \`${ command }\` &> /dev/null &`
 
 	}else{
 		command = `START /B "${ command }" > NUL`
